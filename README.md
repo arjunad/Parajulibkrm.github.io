@@ -1,1 +1,1 @@
-# jscalc.github.io
+# https://jscalc.github.io
