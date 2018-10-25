@@ -44,12 +44,10 @@ function c() {
 function backspace() {
 	num = exp.length;
 	exp = exp.substring(0, num - 1);
-	result = "";
 	if(!exp) {
 		exp =0;
 	}
 	document.getElementById("calc-operation").innerHTML = exp;
-	document.getElementById("calc-typed").innerHTML = result;
 }
 
 function short(ans) {
