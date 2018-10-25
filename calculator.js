@@ -48,6 +48,7 @@ function backspace() {
 		exp =0;
 	}
 	document.getElementById("calc-operation").innerHTML = exp;
+	document.getElementById("calc-typed").innerHTML = "";
 }
 
 function short(ans) {
