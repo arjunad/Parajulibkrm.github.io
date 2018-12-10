@@ -19,14 +19,14 @@ body {
 }
 
 .container {
-  width: 400px;
+  width: auto;
   margin: auto;
 }
 
 .calc-body {
-  width: 275px;
+  width: auto;
   margin: auto;
-  min-height: 400px;
+  min-height: 100vh;
   border: solid 1px #3A4655;
   box-shadow: 0 8px 50px -7px black;
 }
