@@ -5,7 +5,7 @@ h1 {
 	font-size: 80px;
 }
 .button {
-	height: 12.5vh;
+	height: 50px;
 	width: 50px;
 	font-size: 25px;
 }
@@ -19,14 +19,14 @@ body {
 }
 
 .container {
-  width: auto;
-  margin: 0px;
+  width: 100%;
+  margin: auto;
 }
 
 .calc-body {
-  width: auto;
-  margin: 0px;
-  min-height: 98vh;
+  width: 100%;
+  margin: auto;
+  height: 100%;
   border: solid 1px #3A4655;
   box-shadow: 0 8px 50px -7px black;
 }
@@ -34,7 +34,7 @@ body {
 .calc-screen {
   background: #3A4655;
   width: 100%;
-  height: 37vh;
+  height: 150px;
   padding: 20px;
 }
 #calc-operation {
